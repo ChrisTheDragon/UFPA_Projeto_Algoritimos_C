@@ -29,7 +29,6 @@ void cadastrar (dados livros[10]){
         printf("PREÇO = ");
         scanf(" %f", &livros[i].preco);
     }
-
 }
 
 int pesquisa (unsigned int isbn, dados livros[10], int *a) 
