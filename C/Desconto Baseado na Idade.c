@@ -4,9 +4,9 @@ float desconto (int id, float val){
     float desc;
 
     if (val > 300) {
-        desc = val + (0.25*val);
-    } else if (300 <= val && val <= 100 && id > 50) {
-        desc = val + (0.15*val);
+        desc = val - (0.25*val);
+    } else if (val <= 300 && val >= 100 && id > 50) {
+        desc = val - (0.15*val);
     } else {
         desc = val;
     }
