@@ -13,13 +13,13 @@ int main(void) {
         printf("[%d / %d]", vet[i], i);
     }
     
-    while (x > 12 || y > 12)
+    while (x > 11 || y > 11)
     {
         printf("\nDigite uma posição do vetor: ");
         scanf("%d", &x);
         printf("Digite outra posição do vetor: ");
         scanf("%d", &y);
-        if (x > 12 || y > 12) {
+        if (x > 11 || y > 11) {
             printf("Valor inválido! Digite novamente!\n");
         }
     }
