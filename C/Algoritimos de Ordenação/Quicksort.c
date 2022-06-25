@@ -37,9 +37,10 @@ void quickSort(int vetor[], int inicio, int fim){
 int main(void){
 
     int tam = 10;
-    int vet[10] = {5, 9, 4, 7, 6, 2, 3, 8, 1, 3}; 
-    int aux[tam];
+    int vet[10] = {5, 9, 4, 7, 6, 2, 3, 8, 1, 3};
 
+    system("cls");
+    
     //Print do vetor desodernado
     for(int i=0; i<tam; i++){
         printf("[%d]", vet[i]);
